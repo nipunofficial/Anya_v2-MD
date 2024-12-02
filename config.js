@@ -1,4 +1,4 @@
-const { readFileSync } = require('fs')
+ const { readFileSync } = require('fs')
 require('dotenv').config({path: './mongo.env'});
 require('dotenv').config({path: './owner.env'});
 require('dotenv').config({path: './session.env'});
@@ -8,29 +8,29 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
-    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
-    prefa: process.env.Prefix || "-",
+    botname: process.env.BotName || "𝐊𝐢𝐧𝐠 𝐍𝐈𝐏𝐔 ᴠ5",
+    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐊𝐢𝐧𝐠 𝐍𝐃 𝐁𝐨𝐭",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
+    ownername: process.env.Owner_Name || "𝐍𝐢𝐩𝐮-𝐌𝐃",
+    ownernumber: process.env.Owner_Number || "94727255904",
     instagramId: process.env.Insta || "3.69_pika",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "𝐏𝐢𝐤𝐚𝐁𝐨𝐭𝐳 🌚🌙",
-    packname: process.env.PackName || "𝕼𝖚𝖊𝖊𝖓 𝕬𝖓𝖞𝖆 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
+    author: process.env.Author || "𝐍𝐃-𝐁𝐨𝐭𝐳 🌚🌙",
+    packname: process.env.PackName || "𝖐𝖎𝖓𝖌 𝕹𝖎𝖕𝖚𝖓 𝖁5 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
+    sessionId: process.env.SESSION_ID || "vBfirKBUtF0b6O_A_N_Y_A_V_2_bxIxMV",
 
     /**
      * thumbnails and medias
